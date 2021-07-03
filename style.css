@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ .head{
+ 
+    width: 93%;
+    height: 100px;
+   margin-left: 100px;
+   background-color: #ffffff;
+ }
+
+.sidebar{
+    background-color:#fafafa;
+    width: 100px;
+    height: 720px;
+    margin-top: -100px;
+   
+}
+.sidebar img{
+   padding: 10px;
+   margin-left: 10px;
+}
+
+.demo{
+    background-color:#f4f5f7;
+    width: 93%;
+    height: 620px;
+   margin-left: 100px;
+   margin-top: -620px;
+   
+    
+}
+
+
+.side-nav  ul li{
+    padding: 20px;
+
+  
+}
+
+.side-nav ul li a{
+    text-decoration: none;
+    color: black;
+     
+}
+
+.main-body .demo #para1{
+    margin-left: 40px;
+    
+
+}
+
+#inputtext{
+    margin-top: 40px;
+    margin-left: 160px;
+    width: 850px;
+    height: 20px;
+    border-radius: 18px;
+    padding: 10px;
+    background-color:#fafafa;
+   outline: none;
+}
+
+.simple-box{
+    width: 200px;
+    height: 200px;
+    background-color: #fafafa;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.simple-box #para2{
+    padding: 82px 70px;
+}
+
+#para1{
+   padding-top: 20px;
+  
+   
+}
+
+#para3{
+margin-left: 600px;
+margin-top: 10px;
+}
+
+#student{
+    font-size: 25px;
+   margin-left: 30px;
+   padding: 12px;
+
+  
+  
+}
+#book{
+   
+    font-size: 25px;
+    margin-left: 30px;
+    padding: 12px;
+
+ 
+}
+
+
+#setting{
+    font-size: 25px;
+    margin-left: 30px;
+    padding: 12px;
+    
+}
+
+ 
+
+#lesson1{
+    font-size: 0.7rem;
+}
+
+
+
+#head-logo{
+  margin-left: 15px;
+  padding: 20px;
+  width: 40px;
+  font-size: 30px;
+}
+
+#para4{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+
+#para5{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+#para6{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0px 10px;
+}
+
+
+
+@media screen and (max-width:700px){
+    .main-body{
+        width: 375px;
+    }
+}
+
+@media screen and(max-width:700px){
+    #inputtext{
+          width: 50%;
+    }
+}
